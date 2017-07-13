@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VFG-Android-LiveChat</string>
+    <string name="live_chat_title">What would you like to chat about today?</string>
+    <string name="live_chat_options_title">Select an option</string>
+    <string-array name="chat_options_list">
+        <item>Why is my bill so high?</item>
+        <item>When can I next upgrade my phone?</item>
+        <item>How much does it cost to call abroad?</item>
+        <item>My voice mail isn\'t working?</item>
+    </string-array>
+</resources>

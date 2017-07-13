@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="live_chat_content_margin">15dp</dimen>
+    <dimen name="live_chat_header_panel_top_margin">28dp</dimen>
+    <dimen name="live_chat_start_chat_button_top_margin">28dp</dimen>
+    <dimen name="live_chat_spinner_top_margin">25dp</dimen>
+    <dimen name="headers_text_size">16dp</dimen>
+    <dimen name="live_chat_spinner_item_left_margin">5dp</dimen>
+    <dimen name="live_chat_spinner_item_top_margin">5dp</dimen>
+    <dimen name="live_chat_spinner_item_down_margin">5dp</dimen>
+
+</resources>

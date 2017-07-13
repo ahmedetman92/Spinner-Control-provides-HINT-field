@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_live_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmedetman.vfg_android_livechat.ui.activity.LiveChatActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/live_chat_content_margin"
+        android:layout_marginRight="@dimen/live_chat_content_margin">
+
+        <TextView
+            android:id="@+id/header_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/live_chat_header_panel_top_margin"
+            android:text="@string/live_chat_title"
+            android:textColor="@color/liveChatHeadersBlack"
+            android:textSize="@dimen/headers_text_size"/>
+
+        <Spinner
+
+            android:layout_marginTop="@dimen/live_chat_spinner_top_margin"
+            android:id="@+id/live_chat_options"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/start_chat_button"
+            android:text="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
